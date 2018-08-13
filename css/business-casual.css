@@ -24,30 +24,50 @@ p {
   line-height: 1.75;
 }
 
+.page-section a:link {
+    color: rgb(43,142,52)!important;
+}
+
+.page-section a:visited {
+    color: rgb(43,142,52)!important;
+}
+
+.page-section a:hover {
+    color: rgb(43,142,52)!important;
+}
+
 .text-faded {
   color: rgba(200, 0, 255, 0.3);
 }
 
 .site-heading {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-  text-transform: uppercase;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   line-height: 1;
   font-family: 'Raleway';
+  color: rgba(2,68,1);
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 .site-heading .site-heading-upper {
   display: block;
   font-size: 2rem;
-  font-weight: 800;
+    text-transform: uppercase;
 }
 
 .site-heading .site-heading-lower {
-  font-size: 5rem;
+    display: block;
+  font-size: 4rem;
   font-weight: 100;
   line-height: 4rem;
+    text-transform: uppercase;
 }
 
+.site-heading .site-heading-sub {
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+}
 .page-section {
   margin-top: 5rem;
   margin-bottom: 5rem;
@@ -65,7 +85,7 @@ p {
 
 .section-heading .section-heading-lower {
   display: block;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 100;
 }
 
@@ -76,19 +96,25 @@ p {
 #mainNav {
   background-color: rgba(2,68,1);
   font-family: 'Raleway';
+  margin-top: 0rem;
+  padding-top: 0rem!important;
+  padding-bottom: 0rem!important;
 }
 
 #mainNav .navbar-brand {
-  color: #176620;
+    color: rgb(33,132,42);
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-  color: rgba(134, 245, 147);
+    color: rgb(33,132,42);
   font-weight: 800;
+  padding-top: 1rem!important;
+  padding-bottom: 1rem!important;
 }
 
 #mainNav .navbar-nav .nav-item.active .nav-link {
-  color: #86f593;
+    color: rgba(134, 245, 147);
+    cursor: default;
 }
 
 @media (min-width: 992px) {
@@ -96,10 +122,10 @@ p {
     font-size: 0.9rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: rgba(51, 0, 51);
+    color: rgba(134, 245, 147);
   }
   #mainNav .navbar-nav .nav-item.active .nav-link:hover {
-    color: #176620;
+    cursor: default;
   }
 }
 
